@@ -1,4 +1,4 @@
-let size = 6;
+let size = 16;
 
 const container = document.querySelector(".container");
 const grid = document.createElement("div");
@@ -18,7 +18,6 @@ const setGrid = () => {
     });
   });
 };
-
 setGrid();
 
 const changeButton = document.querySelector(".change");
@@ -34,11 +33,10 @@ changeButton.addEventListener("click", () => {
       size = value;
     }
   }
-
   setGrid();
 });
 
 clearButton.addEventListener("click", () => {
-  size = 6;
+  size = 16;
   setGrid();
 });
