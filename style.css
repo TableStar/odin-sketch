@@ -36,4 +36,22 @@ button:hover{
   box-sizing: border-box;
 }
 
+.mode {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
+
+.color{
+    display: flex;
+    align-items: center;
+}
+
+#color {
+    width: 32px;
+    height: 32px;
+}
+
 
